@@ -9,181 +9,181 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LottoLab
 build_property.RootNamespace = LottoLab
-build_property.ProjectDir = C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\
+build_property.ProjectDir = C:\Users\Usuario\Desktop\new\LottoLab-V-0.1.2\mvc\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab
+build_property.MSBuildProjectDirectory = C:\Users\Usuario\Desktop\new\LottoLab-V-0.1.2\mvc
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Charts/GraficoAtrazos.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Charts/GraficoAtrazos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcnRzXEdyYWZpY29BdHJhem9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Charts/GraficoLunacao.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Charts/GraficoLunacao.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcnRzXEdyYWZpY29MdW5hY2FvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Charts/MaisCaem.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Charts/MaisCaem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcnRzXE1haXNDYWVtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Charts/Reincidentes.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Charts/Reincidentes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcnRzXFJlaW5jaWRlbnRlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Home/Index.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Home/Privacy.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/PanelTable/TabelaElementar.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/PanelTable/TabelaElementar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFuZWxUYWJsZVxUYWJlbGFFbGVtZW50YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/PanelTable/TabelaPadrao.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/PanelTable/TabelaPadrao.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFuZWxUYWJsZVxUYWJlbGFQYWRyYW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha1.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhMS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha10.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha10.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhMTAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha11.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha11.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhMTEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha12.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha12.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhMTIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha13.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha13.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhMTMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha14.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha14.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhMTQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha15.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha15.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhMTUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha16.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha16.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhMTYuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha17.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha17.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhMTcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha18.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha18.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhMTguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha19.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha19.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhMTkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha2.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhMi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha20.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha20.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhMjAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha21.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha21.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhMjEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha22.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha22.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhMjIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha23.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha23.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhMjMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha24.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha24.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhMjQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha25.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha25.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhMjUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha3.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhMy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha4.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha4.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhNC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha5.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha5.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhNS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha6.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha6.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhNi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha7.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha7.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhNy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha8.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha8.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhOC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Bolinhas/_Bolinha9.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Bolinhas/_Bolinha9.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvbGluaGFzXF9Cb2xpbmhhOS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/Error.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/_LuaCheia.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/_LuaCheia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MdWFDaGVpYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/_LuaCrescente.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/_LuaCrescente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MdWFDcmVzY2VudGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/_LuaMinguante.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/_LuaMinguante.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MdWFNaW5ndWFudGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/_LuaNova.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/_LuaNova.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MdWFOb3ZhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/_ViewImports.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/_ViewStart.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Desktop/LottoLab/Src/LottoLab/Views/Shared/_Layout.cshtml]
+[C:/Users/Usuario/Desktop/new/LottoLab-V-0.1.2/mvc/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-kbem4ub73e
