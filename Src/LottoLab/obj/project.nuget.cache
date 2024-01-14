@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jFZgCRJBpBB6C+99y7J+5yg9NDxPHEhfTWTU1rMEp6/fAo3y5PJJRWOBf8wNSSNncX0E+EYpx+9bHFFJt9hsBg==",
+  "dgSpecHash": "pwSindL9g/USpzu51td2r2lpRaJo5cTImhPD8RaEiLT7P0Cr6e8a2HXklEkhUhyBv9ecM1UtrZCz8PM11BnEmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\new\\LottoLab-V-0.1.2\\mvc\\LottoLab.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\new\\LottoLab-V-0.1.2\\Src\\LottoLab\\LottoLab.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
