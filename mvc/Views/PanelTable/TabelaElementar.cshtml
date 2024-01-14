@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tabela de Cards</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+
+</head>
+<body>
+
+   
+     <h4 class="text-center">
+        Tabela de amostra geral
+        <button class="btn ps-lg-5 text-end" onclick="window.location.href='@Url.Action("Index", "Home")'" style="color:white">Voltar</button>
+    </h4>
+    <div class="color-legend">
+        <div class="color-box" style="background-color: rgba(255, 99, 132, 1);"></div>
+        <span class="color-label">ATRAZO &emsp;</span>
+        <div class="color-box" style="background-color: rgba(54, 162, 235, 1);"></div>
+        <span class="color-label">FREQUENCIA &emsp;</span>
+        <div class="color-box" style="background-color: rgba(255, 206, 86, 1);"></div>
+        <span class="color-label">CHEIA &emsp;</span>
+        <div class="color-box" style="background-color: rgba(75, 192, 192, 1);"></div>
+        <span class="color-label">NOVA &emsp;</span>
+        <div class="color-box" style="background-color: rgba(153, 102, 255, 1);"></div>
+        <span class="color-label">CRESCENTE &emsp;</span>
+        <div class="color-box" style="background-color: rgba(255, 99, 132, 1);"></div>
+        <span class="color-label">MINGUANTE &emsp;</span>
+    </div>
+  
+     <div class="table-container">
+         @for (int i = 1; i <= 25; i++) {  
+           
+          string bolinha = string.Format("~/Views/Shared/Bolinhas/_Bolinha{0}.cshtml", i);   
+    
+           <div class="card card_table bg-custom">
+             
+               @await Html.PartialAsync(bolinha)
+           </div>  
+          }</div> 
+        </div>
+   
+   
+</body>
+</html> 

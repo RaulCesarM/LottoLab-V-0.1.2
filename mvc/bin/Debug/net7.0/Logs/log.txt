@@ -1,0 +1,843 @@
+[06/08/2023 14:44:38] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilDelayRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilDelayRepository.cs:line 32
+   at LottoLab.Services.LotoFacilDelayService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilDelayService.cs:line 26
+   at LottoLab.Services.SupplyRNAService.checkLastRNA() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyRNAService.cs:line 16
+   at LottoLab.Workers.RNAWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\RNAWorker.cs:line 29
+[06/08/2023 14:44:39] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26
+[06/08/2023 14:44:39] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilDelayRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilDelayRepository.cs:line 32
+   at LottoLab.Services.LotoFacilDelayService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilDelayService.cs:line 26
+   at LottoLab.Services.SupplyRNAService.checkLastRNA() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyRNAService.cs:line 16
+   at LottoLab.Workers.RNAWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\RNAWorker.cs:line 29
+[06/08/2023 14:44:40] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26
+[06/08/2023 14:44:41] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilDelayRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilDelayRepository.cs:line 32
+   at LottoLab.Services.LotoFacilDelayService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilDelayService.cs:line 26
+   at LottoLab.Services.SupplyRNAService.checkLastRNA() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyRNAService.cs:line 16
+   at LottoLab.Workers.RNAWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\RNAWorker.cs:line 29
+[06/08/2023 14:44:41] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyServices.checkLastDrawOnWeb() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyServices.cs:line 27
+   at LottoLab.Workers.LotoFacilWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\LotoFacilWorker.cs:line 26
+[06/08/2023 14:44:41] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26
+[06/08/2023 14:44:42] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilDelayRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilDelayRepository.cs:line 32
+   at LottoLab.Services.LotoFacilDelayService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilDelayService.cs:line 26
+   at LottoLab.Services.SupplyRNAService.checkLastRNA() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyRNAService.cs:line 16
+   at LottoLab.Workers.RNAWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\RNAWorker.cs:line 29
+[06/08/2023 14:44:42] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyServices.checkLastDrawOnWeb() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyServices.cs:line 27
+   at LottoLab.Workers.LotoFacilWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\LotoFacilWorker.cs:line 26
+[06/08/2023 14:44:42] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26
+[06/08/2023 14:44:43] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilDelayRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilDelayRepository.cs:line 32
+   at LottoLab.Services.LotoFacilDelayService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilDelayService.cs:line 26
+   at LottoLab.Services.SupplyRNAService.checkLastRNA() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyRNAService.cs:line 16
+   at LottoLab.Workers.RNAWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\RNAWorker.cs:line 29
+[06/08/2023 14:44:43] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyServices.checkLastDrawOnWeb() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyServices.cs:line 27
+   at LottoLab.Workers.LotoFacilWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\LotoFacilWorker.cs:line 26
+[06/08/2023 14:44:43] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26
+[06/08/2023 14:44:44] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilDelayRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilDelayRepository.cs:line 32
+   at LottoLab.Services.LotoFacilDelayService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilDelayService.cs:line 26
+   at LottoLab.Services.SupplyRNAService.checkLastRNA() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyRNAService.cs:line 16
+   at LottoLab.Workers.RNAWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\RNAWorker.cs:line 29
+[06/08/2023 14:44:44] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyServices.checkLastDrawOnWeb() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyServices.cs:line 27
+   at LottoLab.Workers.LotoFacilWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\LotoFacilWorker.cs:line 26
+[06/08/2023 14:44:44] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26
+[06/08/2023 14:44:45] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilDelayRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilDelayRepository.cs:line 32
+   at LottoLab.Services.LotoFacilDelayService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilDelayService.cs:line 26
+   at LottoLab.Services.SupplyRNAService.checkLastRNA() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyRNAService.cs:line 16
+   at LottoLab.Workers.RNAWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\RNAWorker.cs:line 29
+[06/08/2023 14:44:45] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26
+[06/08/2023 14:44:46] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyServices.checkLastDrawOnWeb() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyServices.cs:line 27
+   at LottoLab.Workers.LotoFacilWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\LotoFacilWorker.cs:line 26
+[06/08/2023 14:44:46] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilDelayRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilDelayRepository.cs:line 32
+   at LottoLab.Services.LotoFacilDelayService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilDelayService.cs:line 26
+   at LottoLab.Services.SupplyRNAService.checkLastRNA() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyRNAService.cs:line 16
+   at LottoLab.Workers.RNAWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\RNAWorker.cs:line 29
+[06/08/2023 14:44:47] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26
+[06/08/2023 14:44:47] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyServices.checkLastDrawOnWeb() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyServices.cs:line 27
+   at LottoLab.Workers.LotoFacilWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\LotoFacilWorker.cs:line 26
+[06/08/2023 14:44:47] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilDelayRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilDelayRepository.cs:line 32
+   at LottoLab.Services.LotoFacilDelayService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilDelayService.cs:line 26
+   at LottoLab.Services.SupplyRNAService.checkLastRNA() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyRNAService.cs:line 16
+   at LottoLab.Workers.RNAWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\RNAWorker.cs:line 29
+[06/08/2023 14:44:48] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26
+[06/08/2023 14:44:48] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyServices.checkLastDrawOnWeb() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyServices.cs:line 27
+   at LottoLab.Workers.LotoFacilWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\LotoFacilWorker.cs:line 26
+[06/08/2023 14:44:48] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilDelayRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilDelayRepository.cs:line 32
+   at LottoLab.Services.LotoFacilDelayService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilDelayService.cs:line 26
+   at LottoLab.Services.SupplyRNAService.checkLastRNA() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyRNAService.cs:line 16
+   at LottoLab.Workers.RNAWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\RNAWorker.cs:line 29
+[06/08/2023 14:44:49] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26
+[06/08/2023 14:44:49] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyServices.checkLastDrawOnWeb() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyServices.cs:line 27
+   at LottoLab.Workers.LotoFacilWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\LotoFacilWorker.cs:line 26
+[06/08/2023 14:44:50] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26
+[06/08/2023 14:44:50] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilDelayRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilDelayRepository.cs:line 32
+   at LottoLab.Services.LotoFacilDelayService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilDelayService.cs:line 26
+   at LottoLab.Services.SupplyRNAService.checkLastRNA() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyRNAService.cs:line 16
+   at LottoLab.Workers.RNAWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\RNAWorker.cs:line 29
+[06/08/2023 14:44:50] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyServices.checkLastDrawOnWeb() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyServices.cs:line 27
+   at LottoLab.Workers.LotoFacilWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\LotoFacilWorker.cs:line 26
+[06/08/2023 14:44:51] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26
+[06/08/2023 14:44:51] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilDelayRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilDelayRepository.cs:line 32
+   at LottoLab.Services.LotoFacilDelayService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilDelayService.cs:line 26
+   at LottoLab.Services.SupplyRNAService.checkLastRNA() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyRNAService.cs:line 16
+   at LottoLab.Workers.RNAWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\RNAWorker.cs:line 29
+[06/08/2023 14:44:51] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyServices.checkLastDrawOnWeb() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyServices.cs:line 27
+   at LottoLab.Workers.LotoFacilWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\LotoFacilWorker.cs:line 26
+[06/08/2023 14:44:52] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26
+[06/08/2023 14:44:52] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilDelayRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilDelayRepository.cs:line 32
+   at LottoLab.Services.LotoFacilDelayService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilDelayService.cs:line 26
+   at LottoLab.Services.SupplyRNAService.checkLastRNA() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyRNAService.cs:line 16
+   at LottoLab.Workers.RNAWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\RNAWorker.cs:line 29
+[06/08/2023 14:44:53] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyServices.checkLastDrawOnWeb() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyServices.cs:line 27
+   at LottoLab.Workers.LotoFacilWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\LotoFacilWorker.cs:line 26
+[06/08/2023 14:44:53] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26
+[06/08/2023 14:44:53] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilDelayRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilDelayRepository.cs:line 32
+   at LottoLab.Services.LotoFacilDelayService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilDelayService.cs:line 26
+   at LottoLab.Services.SupplyRNAService.checkLastRNA() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyRNAService.cs:line 16
+   at LottoLab.Workers.RNAWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\RNAWorker.cs:line 29
+[06/08/2023 14:44:54] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyServices.checkLastDrawOnWeb() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyServices.cs:line 27
+   at LottoLab.Workers.LotoFacilWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\LotoFacilWorker.cs:line 26
+[06/08/2023 14:44:54] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26
+[06/08/2023 14:44:54] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilDelayRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilDelayRepository.cs:line 32
+   at LottoLab.Services.LotoFacilDelayService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilDelayService.cs:line 26
+   at LottoLab.Services.SupplyRNAService.checkLastRNA() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyRNAService.cs:line 16
+   at LottoLab.Workers.RNAWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\RNAWorker.cs:line 29
+[06/08/2023 14:44:55] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyServices.checkLastDrawOnWeb() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyServices.cs:line 27
+   at LottoLab.Workers.LotoFacilWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\LotoFacilWorker.cs:line 26
+[06/08/2023 14:44:55] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26
+[06/08/2023 14:44:55] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilDelayRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilDelayRepository.cs:line 32
+   at LottoLab.Services.LotoFacilDelayService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilDelayService.cs:line 26
+   at LottoLab.Services.SupplyRNAService.checkLastRNA() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyRNAService.cs:line 16
+   at LottoLab.Workers.RNAWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\RNAWorker.cs:line 29
+[06/08/2023 14:44:56] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26
+[06/08/2023 14:44:56] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyServices.checkLastDrawOnWeb() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyServices.cs:line 27
+   at LottoLab.Workers.LotoFacilWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\LotoFacilWorker.cs:line 26
+[06/08/2023 14:44:57] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilDelayRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilDelayRepository.cs:line 32
+   at LottoLab.Services.LotoFacilDelayService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilDelayService.cs:line 26
+   at LottoLab.Services.SupplyRNAService.checkLastRNA() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyRNAService.cs:line 16
+   at LottoLab.Workers.RNAWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\RNAWorker.cs:line 29
+[06/08/2023 14:44:57] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26
+[06/08/2023 14:44:57] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyServices.checkLastDrawOnWeb() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyServices.cs:line 27
+   at LottoLab.Workers.LotoFacilWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\LotoFacilWorker.cs:line 26
+[06/08/2023 14:44:58] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilDelayRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilDelayRepository.cs:line 32
+   at LottoLab.Services.LotoFacilDelayService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilDelayService.cs:line 26
+   at LottoLab.Services.SupplyRNAService.checkLastRNA() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyRNAService.cs:line 16
+   at LottoLab.Workers.RNAWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\RNAWorker.cs:line 29
+[06/08/2023 14:44:58] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26
+[06/08/2023 14:44:58] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyServices.checkLastDrawOnWeb() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyServices.cs:line 27
+   at LottoLab.Workers.LotoFacilWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\LotoFacilWorker.cs:line 26
+[06/08/2023 14:44:59] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilDelayRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilDelayRepository.cs:line 32
+   at LottoLab.Services.LotoFacilDelayService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilDelayService.cs:line 26
+   at LottoLab.Services.SupplyRNAService.checkLastRNA() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyRNAService.cs:line 16
+   at LottoLab.Workers.RNAWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\RNAWorker.cs:line 29
+[06/08/2023 14:44:59] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26
+[06/08/2023 14:45:00] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyServices.checkLastDrawOnWeb() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyServices.cs:line 27
+   at LottoLab.Workers.LotoFacilWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\LotoFacilWorker.cs:line 26
+[06/08/2023 14:45:00] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilDelayRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilDelayRepository.cs:line 32
+   at LottoLab.Services.LotoFacilDelayService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilDelayService.cs:line 26
+   at LottoLab.Services.SupplyRNAService.checkLastRNA() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyRNAService.cs:line 16
+   at LottoLab.Workers.RNAWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\RNAWorker.cs:line 29
+[06/08/2023 14:45:00] Erro: System.IO.DirectoryNotFoundException: C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\bin\Debug\LottoLab\
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Microsoft.Extensions.Configuration.FileConfigurationExtensions.SetBasePath(IConfigurationBuilder builder, String basePath)
+   at LottoLab.Context.LottoLabContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Context\LottoLabContext.cs:line 18
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.OrderBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at LottoLab.Repository.LotoFacilRepository.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Repository\LotoFacilRepository.cs:line 28
+   at LottoLab.Services.LotoFacilService.GetLast() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\LotoFacilService.cs:line 27
+   at LottoLab.Services.SupplyDelayService.checkLastDrawOnWebDelay() in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Services\SupplyDelayService.cs:line 16
+   at LottoLab.Workers.DelayWorker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Usuario\Desktop\LottoLab\Src\LottoLab\Workers\DelayWorker.cs:line 26

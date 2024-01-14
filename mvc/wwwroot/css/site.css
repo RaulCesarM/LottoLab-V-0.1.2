@@ -1,0 +1,196 @@
+
+html, body {
+    margin: 0;
+    padding: 10px;
+    height: 100%;
+    bottom: 10px;
+}
+
+     
+
+/* Espaços para ajuste */
+.spacer{
+    margin-bottom: 50px;
+}
+.spacerMaior {
+    margin-bottom: 200px;
+}
+
+/* Graficos */
+
+.charts {
+    width: 850px;
+    height: 850px;
+}
+
+.chartsLunacao {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin:5px;
+    height: 75%;
+}
+
+
+/***  Cards **/
+
+.card {
+    width: 90%;   
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 01);
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.5s ease;
+}
+
+    .card:hover {
+        transform: scale(1.0);
+    }
+        .card:hover img {
+            filter: blur(5px);
+        }
+          .card:not(.no-hover):hover {
+           transform: scale(1.09);
+           }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        transition: filter 0.5s ease;
+    }
+
+.card-img-overlay {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.card:hover .card-img-overlay {
+    opacity: 1;
+}
+
+
+.card-grande {
+    width: 1500px;
+    height: 1500px;
+    position:center;
+    transition: all .3s ease-in-out;
+}
+
+.card-medio {
+    width: 500px;
+    height: 500px;
+    position:center;
+    transition: all .3s ease-in-out;
+}
+
+
+.cardlogo {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.card cardlogo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.card_Circular {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+  }
+
+/****Logo tipo ***/
+.bg-custom {
+    background-color: rgb(19, 21, 20); 
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+    #logo img {
+        width: 75px;
+    }
+
+
+.card cardlogo h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    line-height: 50px;
+    color: rgb(193, 30, 30);
+}
+
+.card_table {
+    width: calc(20% - 10px); /* Largura ajustada para 20% menos a margem */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  
+    padding-top: -15px;
+   
+   
+}
+
+.table-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px; /* Espaçamento superior */
+    padding-bottom: 20px; /* Espaçamento inferior */
+}
+
+  canvas#myChart {
+    width: 100%;
+    height: 90%;
+  }
+
+
+
+
+  .color-legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.color-box {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+.color-label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.casa-r {
+    background-color: red; /* Cor para o valor 'R' */
+    color: white; /* Cor do texto para o valor 'R' */
+}
+
+.casa-a {
+    background-color: blue; /* Cor para o valor 'A' */
+    color: white; /* Cor do texto para o valor 'A' */
+}
+
+.casa-n {
+    background-color: green; /* Cor para o valor 'N' */
+    color: white; /* Cor do texto para o valor 'N' */
+}

@@ -1,0 +1,44 @@
+﻿<div class="spacer"></div>
+
+    <h4 class="text-center">
+        Graficos dos numeros de lunações
+        <button class="btn ps-lg-5 text-end" onclick="window.location.href='@Url.Action("Index", "Home")'" style="color:white">Voltar</button>
+    </h4>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-lg-6 col-12">
+                    <div class="image-container bg-custom">
+                        <div class="chartsLunacao">
+                            <partial name="_LuaNova" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-lg-6 col-12">
+                    <div class="image-container bg-custom">
+                        <div class="chartsLunacao">
+                            <partial name="_LuaCrescente" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12  col-lg-6 col-12">
+                    <div class="image-container bg-custom">
+                        <div class="chartsLunacao">
+                            <partial name="_LuaMinguante" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-lg-6 col-12">
+                    <div class="image-container bg-custom">
+                        <div class="chartsLunacao ">
+                            <partial name="_LuaCheia" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+

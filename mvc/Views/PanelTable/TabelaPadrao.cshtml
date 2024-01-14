@@ -1,0 +1,57 @@
+﻿
+@model List<LottoLab.Models.LotoFacilRNA>
+
+
+<h4 class="text-center">
+    Tabela do padrão RNA para análise de IA
+    <button class="btn ps-lg-5 text-end" onclick="window.location.href='@Url.Action("Index", "Home")'" style="color:white">Voltar</button>
+</h4>
+<div class="table-container">
+    <table style="width: 90%;">
+         <thead>
+                <tr>
+                    <th>Concurso</th>
+                    <th>Data</th>
+                @for (int i = 1; i <= 25; i++)
+                {
+                            <th>Casa @i</th>
+                }
+                </tr>
+            </thead>
+        <tbody>
+            @foreach (var padrao in Model)
+            {
+                         <tr>
+                            <td>@padrao.Concurso</td>
+                            <td>@padrao.Data</td>
+                            <td class="@(padrao.bola1 == 'R' ? "casa-r" : (padrao.bola1 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola1</td>
+                            <td class="@(padrao.bola2 == 'R' ? "casa-r" : (padrao.bola2 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola2</td>
+                            <td class="@(padrao.bola3 == 'R' ? "casa-r" : (padrao.bola3 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola3</td>
+                            <td class="@(padrao.bola4 == 'R' ? "casa-r" : (padrao.bola4 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola4</td>
+                            <td class="@(padrao.bola5 == 'R' ? "casa-r" : (padrao.bola5 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola5</td>
+                            <td class="@(padrao.bola6 == 'R' ? "casa-r" : (padrao.bola6 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola6</td>
+                            <td class="@(padrao.bola7 == 'R' ? "casa-r" : (padrao.bola7 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola7</td>
+                            <td class="@(padrao.bola8 == 'R' ? "casa-r" : (padrao.bola8 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola8</td>
+                            <td class="@(padrao.bola9 == 'R' ? "casa-r" : (padrao.bola9 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola9</td>
+                            <td class="@(padrao.bola10 == 'R' ? "casa-r" : (padrao.bola10 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola10</td>
+                            <td class="@(padrao.bola11 == 'R' ? "casa-r" : (padrao.bola11 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola11</td>
+                            <td class="@(padrao.bola12 == 'R' ? "casa-r" : (padrao.bola12 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola12</td>
+                            <td class="@(padrao.bola13 == 'R' ? "casa-r" : (padrao.bola13 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola13</td>
+                            <td class="@(padrao.bola14 == 'R' ? "casa-r" : (padrao.bola14 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola14</td>
+                            <td class="@(padrao.bola15 == 'R' ? "casa-r" : (padrao.bola15 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola15</td>
+                            <td class="@(padrao.bola16 == 'R' ? "casa-r" : (padrao.bola16 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola16</td>
+                            <td class="@(padrao.bola17 == 'R' ? "casa-r" : (padrao.bola17 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola17</td>
+                            <td class="@(padrao.bola18 == 'R' ? "casa-r" : (padrao.bola18 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola18</td>
+                            <td class="@(padrao.bola19 == 'R' ? "casa-r" : (padrao.bola19 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola19</td>
+                            <td class="@(padrao.bola20 == 'R' ? "casa-r" : (padrao.bola20 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola20</td>
+                            <td class="@(padrao.bola21 == 'R' ? "casa-r" : (padrao.bola21 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola21</td>
+                            <td class="@(padrao.bola22 == 'R' ? "casa-r" : (padrao.bola22 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola22</td>
+                            <td class="@(padrao.bola23 == 'R' ? "casa-r" : (padrao.bola23 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola23</td>
+                            <td class="@(padrao.bola24 == 'R' ? "casa-r" : (padrao.bola24 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola24</td>
+                            <td class="@(padrao.bola25 == 'R' ? "casa-r" : (padrao.bola25 == 'A' ? "casa-a" : "casa-n"))">@padrao.bola25</td>
+                        </tr>
+            }
+            </tbody>
+        </tbody>
+    </table>
+</div>

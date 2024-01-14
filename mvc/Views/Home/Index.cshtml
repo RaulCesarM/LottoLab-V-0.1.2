@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+   
+
+<div class="container">
+    <div class="spacer"></div>
+      <div class="row">
+        <div class="col-auto d-flex">
+            <a href="@Url.Action("TabelaPadrao", "Tabela")" class="btn btn-dark">Tabela padrão RNA</a>
+            <a> &nbsp;</a>
+            <a href="@Url.Action("TabelaElementar", "Tabela")" class="btn btn-dark" >Tabela Analise Geral </a>
+        </div>
+    </div>
+   <div class="spacer"></div>
+
+   <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-4 bg-custom">
+                <a href="@Url.Action("MaisCaem", "Charts")">
+                    <img class="card-img-top image-container" src="~/Assets/GraficoExemplo6.png" alt="Mais Caem">
+                    <div class="card-img-overlay">
+                        <h2 class="text-light text-center">Mais Caem</h2>
+                       
+                    </div>
+                </a>
+            </div>
+            <div class="spacer"></div>
+
+            <div class="card mb-4  bg-custom">
+                <a href="@Url.Action("GraficoAtrazos", "Charts")">
+                    <img class="card-img-top" src="~/Assets/GraficoExemplo5.png" alt="Média de Atrasos">
+                    <div class="card-img-overlay">
+                        <h2 class="text-light text-center">Média de Atrasos</h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+
+        <div class="col-md-6">
+            <div class="card mb-4  bg-custom">
+                <a href="@Url.Action("Reincidentes", "Charts")">
+                    <img class="card-img-top" src="~/Assets/GraficoExemplo7.png" alt="Números Reincidentes">
+                    <div class="card-img-overlay">
+                        <h2 class="text-light text-center">Números Reincidentes</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="spacer"></div>
+
+            <div class="card mb-4  bg-custom">                
+                <a href="@Url.Action("GraficoLunacao", "Charts")">
+                    <img class="card-img-top" src="~/Assets/GraficoExemplo9.png" alt="Gráficos Lunações">
+                    <div class="card-img-overlay ">
+                       <h2 class="text-light text-center">Gráficos Lunações</h2>
+                        
+                       
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
